@@ -1,1 +1,32 @@
-/* This is Stylesheet File */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    background-color: black;
+}
+.whole-page{
+    padding: 30px;
+}
+.menu{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-items{
+    cursor: pointer;
+}
+.items{
+    list-style-type: none;
+    display: none;
+}
+.menu-items:hover .items{
+    display: block;
+}
+.menu-items .items a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-items .items a:hover{
+    color: skyblue;
+}
